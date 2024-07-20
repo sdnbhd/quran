@@ -1,7 +1,7 @@
+# REV19: Sat 20 Jul 2024 11:00
 # REV09: Mon 05 Feb 2024 21:00
 # REV08: Mon 30 May 2022 10:00
 # REV07: Tue 03 Aug 2021 09:00
-# REV06: Fri 23 Jul 2021 10:00
 # REV05: Mon 19 Jul 2021 13:00
 # START: Mon 15 Feb 2021 09:00
 
@@ -15,8 +15,6 @@ ALL: 000.md
         _includes/footer.html _includes/head.html _includes/google-analytics.html \
 	assets/css/style.css assets/scripts/includeScript.py 
 	python assets/scripts/includeScript.py < 000.pmd > 000.md
-	tar cfJ ./template.tar.xz _config.yml .dojekyll .gitignore .template .shsh Gemfile LICENSE Makefile *.ico *.md *.pmd assets/ _includes/ _layouts/ SandBox/
-	zip -r ./template.zip _config.yml .dojekyll .gitignore .template .shsh Gemfile LICENSE Makefile *.ico *.md *.pmd assets/ _includes/ _layouts/ SandBox/
 
 .siteHack: _site/sitemap.xml
 	@bash  .siteHack $(SITEURL)

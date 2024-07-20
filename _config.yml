@@ -1,0 +1,41 @@
+version:          "0000--20-Jul-2024"
+copyright:        "2024-2024"
+title:            "Reciters Sample"
+author:           "Sendirian Berhad"
+address:          "Padang Besar, Sadao, Thailand."
+description:
+  Reciters Sample from Quran.com. See also quran.com/reciters.
+disclaimer:
+  I have spoken.
+tagline:          "Reciters Sample from Quran.com. See also quran.com/reciters."
+keywords:         "quran, reciters, sample"
+navbarlinks:
+- navbar:         "Home"
+  link:           "/"
+- navbar:         "GitHub"
+  link:           "https://github.com/sdnbhd/quran/"
+- navbar:         "Listing"
+  link:           "/000.html"
+- navbar:         "About"
+  link:           "/ABOUT/"
+- navbar:         "GitHub Page"
+  link:           "https://sdnbhd.github.io/quran/"
+lang:             "en-US"
+sitemap:          "true"
+markdown:         "kramdown"
+urlweb:           "https://sdnbhd.github.io/quran/"
+urlcontact:       "TBA"
+urlgithub:        "https://github.com/sdnbhd/quran/"
+google_analytics: "G-KPSLWHN6H7"
+plugins:
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-paginate
+defaults:
+- scope:
+    path:    ""
+  values:
+    layout:  "default"
+github:
+- metadata
+
